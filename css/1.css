@@ -54,6 +54,28 @@ img, object, embed, video {
 	float: none;
 }
 
+.zeroMargin_mobile {
+    margin-left: 0;
+}
+.hide_mobile {
+    display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 100%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	border:solid; 
+
+}
+
 #topbanner {
 	background-color:#175F7A;
 	color:white;
@@ -159,29 +181,6 @@ img, object, embed, video {
 	position :absolute;
 }
 
-.zeroMargin_mobile {
-    margin-left: 0;
-}
-.hide_mobile {
-    display: none;
-}
-
-/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
-
-@media only screen and (min-width: 481px) {
-
-.gridContainer {
-	width: 90.675%;
-	padding-left: 1.1625%;
-	padding-right: 1.1625%;
-	clear: none;
-	float: none;
-	margin-left: auto;
-	border:dashed; 
-
-}
-#div1 {
-}
 .zeroMargin_tablet {
     margin-left: 0;
 }
