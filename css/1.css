@@ -42,25 +42,6 @@ img, object, embed, video {
     padding:0;        
 }
 
-/* Mobile Layout: 480px and below. */
-  
-.gridContainer {
-	margin-left: auto;
-	margin-right: auto;
-	width: 86.45%;
-	padding-left: 2.275%;
-	padding-right: 2.275%;
-	clear: none;
-	float: none;
-}
-
-.zeroMargin_mobile {
-    margin-left: 0;
-}
-.hide_mobile {
-    display: none;
-}
-
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -72,19 +53,10 @@ img, object, embed, video {
 	clear: none;
 	float: none;
 	margin-left: auto;
-	border:solid; 
-
 }
 
 #topbanner {
-	background-color:#175F7A;
-	color:white;
-	font-size:18px; 
-	height:60px;
 	padding-top:0.5%;
-	text-align:center;
-	border-radius:10px;
-
 }
 
 #sensisproposal {
