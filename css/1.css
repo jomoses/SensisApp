@@ -53,8 +53,112 @@ img, object, embed, video {
 	clear: none;
 	float: none;
 }
+
+#topbanner {
+	background-color:#175F7A;
+	color:white;
+	font-size:18px; 
+	height:60px;
+	padding-top:0.5%;
+	text-align:center;
+	border-radius:10px;
+
+}
+
+#sensisproposal {
+	background-color:#9ED9ED;
+	border:thick;
+	width:40%;
+	padding-left:2%;
+	border-color:white;
+	border-style:solid;
+	display:inline-table;
+	float:left;
+}
+
+#companyalignment{
+	padding-left:1%;
+	background-color:#9ED9ED;
+	border:thick;
+	width:27%;
+	border-color:white;
+	border-style:solid;
+	display:inline-table;
+}
+
+#valuealignment{
+	text-align:center;
+	background-color:#0B3140;
+	color:white;
+	border:thick;
+	width:27%;
+	border-color:white;
+	border-style:solid;
+	display:inline-table;
+}
+
+#overview{
+	float:left;
+	text-align:center;
+	background-color:#383838;
+	color:white;
+	border:thin;
+	width:56%;
+	border-color:white;
+	border-style:solid;
+}
+
+#digitalx {
+	text-align:center;
+	background-color:#0B3140;
+	color:white;
+	border:thick;
+	display:inline-table;
+	width:25%;
+	border-color:white;
+	border-style:solid;	
+}
+
+#assetsip{
+	text-align:center;	
+	background-color:#9ED9ED;
+	border:thick;
+	display:inline-table;
+	width:25%;
+	border-color:white;
+	border-style:solid;
+}
+
+#people {
+	text-align:center;	
+	background-color:#0B3140;
+	color:white;
+	border:thick;
+	display:inline-table;
+	width:25%;
+	border-color:white;
+	border-style:solid;
+}
+
+#voice {
+	text-align:center;	
+	background-color:#9ED9ED;
+	border:thick;
+	display:inline-table;
+	width:20%;
+	border-color:white;
+	border-style:solid;
+}
+
 #div1 {
 }
+
+.play_video{
+	background :transparent url(..\\images\\play.png) no-repeat center center;
+	display :block;
+	position :absolute;
+}
+
 .zeroMargin_mobile {
     margin-left: 0;
 }
@@ -73,6 +177,8 @@ img, object, embed, video {
 	clear: none;
 	float: none;
 	margin-left: auto;
+	border:dashed; 
+
 }
 #div1 {
 }

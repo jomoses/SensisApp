@@ -6,10 +6,10 @@
         id        = "com.capgemini.sensisapp"
         version   = "1.0.0">
 
-    <name>Sensis - RFI</name>
+    <name>Capgemini @ Sensis</name>
 
     <description>
-        An application to submit Sensis - RFI
+        An application for Sensis Digital transformation ideas
     </description>
 
     <author href="http://www.capgemini.com" email="john.moses@capgemini.com">
