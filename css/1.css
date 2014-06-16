@@ -53,7 +53,7 @@ and (orientation : landscape)
 /* @media only screen and (min-width: 481px) { */
 
 .gridContainer {
-	width: 98%;
+	width: 92.5%;
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 	clear: none;
@@ -61,8 +61,25 @@ and (orientation : landscape)
 	margin-left: auto;
 }
 
-#topbanner {
+#outerdiv {
 	padding-top:0.5%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-bottom:0.5%;
+;
+}
+
+#outertable {
+	border:thin;
+	background-color:#E9E9E9;
+	width:100%;
+	height:100%;
+
+}
+
+#innertable {
+	border-collapse:separate;
+	border-spacing:8px;		
 }
 
 #sensisproposal {
@@ -150,8 +167,7 @@ and (orientation : landscape)
 	border-style:solid;
 }
 
-#div1 {
-}
+
 
 .play_video{
 	background :transparent url(..\\images\\play.png) no-repeat center center;
