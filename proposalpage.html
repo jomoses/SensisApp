@@ -9,6 +9,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Untitled Document</title>
+<script type="text/javascript" src="js/pdfobject.js"></script>
+<script type="text/javascript">
+      window.onload = function (){
+        var myPDF = new PDFObject({ url: "docs/pdftest.pdf", width: "1000px",
+  height: "500px"}).embed("mydiv");
+      };
+    </script>
 <link href="css/boilerplate.css" rel="stylesheet" type="text/css">
 <link href="css/1.css" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>
@@ -37,11 +44,11 @@
         	<table id="innertable">
             	<tr >
                 	<td >
-                    	<object data="docs/pdftest.pdf" type="application/pdf" width="1024" height="768">
-                          <p>It appears you don't have a PDF plugin for this browser.
-                          No biggie... you can <a href="docs/pdftest.pdf">click here to
-                          download the PDF file.</a></p>                          
-                        </object>
+                    	<div id="mydiv">
+                        
+                        </div>
+<!--                    	    <p>It appears you don't have Adobe Reader or PDF support in this web
+						    browser. <a href="docs/pdftest.pdf">Click here to download the PDF</a></p> -->
 						<!-- <embed src="docs/pdftest.pdf" width="1024" height="768" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html"> -->
                     </td>
                 </tr>
