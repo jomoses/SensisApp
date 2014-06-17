@@ -32,6 +32,8 @@
     <gap:splash src="images/SplashScreen.png"           gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="images/SplashScreen.png"          gap:platform="ios"     width="1024" height="768" />
 
+	<!-- To add InAppBrowser from Cordova - Core Plugin. -->
+	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
     <!--
         Define access to external domains.
 
