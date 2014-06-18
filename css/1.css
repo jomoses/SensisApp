@@ -67,6 +67,7 @@ and (orientation : landscape)
 	font-family:"Gill Sans", Helvetica, Arial, sans-serif;
 	font-size:24px;
 	color:#00a1d5;
+	text-align:center;
 }
 
 #innerdiv {
@@ -86,18 +87,23 @@ and (orientation : landscape)
 
 #innertable {
 	border-collapse:separate;
-	border-spacing:10px;		
+	border-spacing:10px;	
 }
 
-#sensisproposal {
-	background-color:#9ED9ED;
-	border:thick;
-	width:40%;
-	padding-left:2%;
-	border-color:white;
-	border-style:solid;
-	display:inline-table;
-	float:left;
+#innertable-ppl {
+	border-collapse:separate;
+	border-spacing:1px;
+}
+
+#bannertable {
+	background-color:white;
+	border-collapse:separate;
+	border-spacing:0px;
+}
+
+#innertable-ppl-txt {
+	background-color:#66c6e7;
+	color:white;
 }
 
 #companyalignment{
@@ -173,7 +179,6 @@ and (orientation : landscape)
 	border-color:white;
 	border-style:solid;
 }
-
 
 
 .play_video{
