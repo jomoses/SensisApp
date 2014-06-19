@@ -9,7 +9,7 @@
     <name>Capgemini @ Sensis</name>
 
     <description>
-        An application for Sensis Digital transformation ideas
+        An application for Sensis Digital transformation journey
     </description>
 
     <author href="http://www.capgemini.com" email="john.moses@capgemini.com">
@@ -17,6 +17,40 @@
     </author>
 
     <preference name="permissions" value="none"/>
+    <preference name="phonegap-version" value="3.3.0" />
+    <preference name="orientation" value="landscape" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    
+	<gap:plugin name="org.apache.cordova.battery-status" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.console" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.vibration" />
 
 
     <icon src="images/AppIcon.png" />
@@ -31,9 +65,6 @@
     <gap:splash src="images/SplashScreen.png" gap:platform="ios"     width="640" height="1136" />
     <gap:splash src="images/SplashScreen.png"           gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="images/SplashScreen.png"          gap:platform="ios"     width="1024" height="768" />
-
-	<!-- To add InAppBrowser from Cordova - Core Plugin. -->
-	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
 
     <!--
         Define access to external domains.
